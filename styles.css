@@ -118,7 +118,8 @@ input,textarea,select{font-family:inherit}
 }
 .brand-sub{font-size:.6rem;color:var(--text-3);font-family:var(--font-m)}
 
-.nav-menu{display:flex;align-items:center;gap:4px;margin:0 auto;}
+.nav-menu{display:flex;align-items:center;gap:4px;justify-content: center;
+  margin: 0 auto;}
 .nav-link{
   display:flex;align-items:center;gap:7px;
   padding:7px 14px;border-radius:8px;
