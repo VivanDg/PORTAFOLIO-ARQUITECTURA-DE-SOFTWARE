@@ -99,12 +99,12 @@ input,textarea,select{font-family:inherit}
 #navbar {
   position:fixed;top:0;left:0;right:0;z-index:500;
   height:var(--nav-h);
-  display:flex;align-items:center;justify-content:space-between;
-  padding:0 28px;gap:20px;
+  display:grid;align-items:center;grid-template-columns: auto 1fr auto;
+  padding:0 28px;
   background:var(--bg-nav);
   border-bottom:1px solid var(--border);
   backdrop-filter:blur(16px);
-  -webkit-backdrop-filter:blur(16px);
+  
   
 }
 .nav-brand{display:flex;align-items:center;gap:12px;flex-shrink:0}
@@ -118,8 +118,7 @@ input,textarea,select{font-family:inherit}
 }
 .brand-sub{font-size:.6rem;color:var(--text-3);font-family:var(--font-m)}
 
-.nav-menu{display:flex;align-items:center;gap:4px;justify-content: center;
-  margin: 0 auto;}
+.nav-menu{display:flex;gap:4px;justify-content: center}
 .nav-link{
   display:flex;align-items:center;gap:7px;
   padding:7px 14px;border-radius:8px;
