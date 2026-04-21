@@ -211,8 +211,8 @@ function renderNavbar(paginaActiva) {
         </svg>
       </div>
       <div class="nav-brand-text">
-        <span class="brand-name">ArqSoft</span>
-        <span class="brand-sub">UPLA 2025</span>
+        <span class="brand-name">Arquitectura de software</span>
+        <span class="brand-sub">UPLA 2026</span>
       </div>
     </div>
 
@@ -356,7 +356,7 @@ function renderFooter() {
     <div class="footer-inner">
       <div class="footer-brand">
         <span class="footer-logo">UPLA</span>
-        <span class="footer-tagline">Arquitectura de Software · 2025</span>
+        <span class="footer-tagline">Arquitectura de Software · 2026</span>
       </div>
       <div class="footer-socials">
         <a href="#" class="social-btn facebook" title="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
